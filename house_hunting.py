@@ -12,5 +12,4 @@ months=0
 while current_savings < (total_cost * 0.25):
     current_savings = (current_savings + current_savings*r/12) + ((annual_salary/12) * portion_saved)
     months+= 1
-else:
-    print("Number of months: " , months)
+print("Number of months: " , months)
